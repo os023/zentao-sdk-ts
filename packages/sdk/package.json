@@ -1,0 +1,48 @@
+{
+  "name": "@zentao/sdk",
+  "version": "0.1.0",
+  "description": "禅道 RESTful API v2.0 TypeScript SDK",
+  "type": "module",
+  "license": "MIT",
+  "author": "zentao-sdk",
+  "keywords": [
+    "zentao",
+    "禅道",
+    "api",
+    "sdk",
+    "rest",
+    "typescript"
+  ],
+  "homepage": "https://www.zentao.net/book/api/2309.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easysoft/zentaopms"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "tsdown": "^0.22.0",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
