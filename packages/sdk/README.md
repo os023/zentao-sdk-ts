@@ -31,3 +31,8 @@ const { products } = await client.product.list()
 ## 文档
 
 参见 monorepo 根目录 `packages/docs` 或 [官方 API 文档](https://www.zentao.net/book/api/2309.html)。
+
+## 相关链接
+
+- [禅道官方代码仓库](https://github.com/easysoft/zentaopms)
+- [API v2.0 开发手册](https://www.zentao.net/book/api/1828.html)

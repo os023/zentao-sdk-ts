@@ -67,6 +67,10 @@ const config: Config = {
           title: '禅道',
           items: [
             {
+              label: '官方源码 (GitHub)',
+              href: 'https://github.com/easysoft/zentaopms',
+            },
+            {
               label: 'API v2.0 手册',
               href: 'https://www.zentao.net/book/api/1828.html',
             },

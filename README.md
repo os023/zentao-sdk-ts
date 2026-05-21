@@ -39,7 +39,13 @@ const bugs = await client.bug.listByProduct(1)
 pnpm docs
 ```
 
-## 官方 API 文档
+## 相关链接
+
+### 禅道官方代码仓库
+
+- [easysoft/zentaopms](https://github.com/easysoft/zentaopms) — 禅道开源版源码，API 路由定义见 `config/apiv2.php`
+
+### 官方 API 文档
 
 - [API v2.0 使用教程](https://www.zentao.net/book/api/2309.html)
 - [API v2.0 开发手册](https://www.zentao.net/book/api/1828.html)

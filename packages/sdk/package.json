@@ -16,7 +16,8 @@
   "homepage": "https://www.zentao.net/book/api/2309.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/easysoft/zentaopms"
+    "url": "https://github.com/os023/zentao-sdk-ts.git",
+    "directory": "packages/sdk"
   },
   "exports": {
     ".": {
@@ -44,5 +45,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "zentao": {
+    "sourceRepository": "https://github.com/easysoft/zentaopms"
   }
 }

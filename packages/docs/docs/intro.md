@@ -17,5 +17,6 @@
 
 ## 相关链接
 
+- [禅道官方代码仓库](https://github.com/easysoft/zentaopms) — `easysoft/zentaopms`
 - [API v2.0 使用教程](https://www.zentao.net/book/api/2309.html)
 - [API v2.0 开发手册](https://www.zentao.net/book/api/1828.html)
